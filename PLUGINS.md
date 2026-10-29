@@ -18,4 +18,4 @@ Transcribed from screenshots supplied by the founder on 29 October 2026. All lis
 | Popup Maker | 1.25.0 |
 | Redux Framework | 4.5.16 |
 
-Theme: Doccure, as confirmed by the founder. Theme version, exact package sources, licence terms and any local modifications remain to be verified. Listing a plugin does not claim Findar Health authored it or owns redistribution rights.
+Theme: Doccure. Listing a plugin does not claim Findar Health authored it or owns redistribution rights.
