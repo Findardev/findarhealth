@@ -1,0 +1,20 @@
+# Secrets and environment files
+wp-config.php
+.env
+.env.*
+*.sql
+*.sql.gz
+*.log
+*.pem
+*.key
+# Production media and backups
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+*.wpress
+*.zip
+*.tar
+*.tar.gz
+# Local files
+.DS_Store
+Thumbs.db
