@@ -1,16 +1,13 @@
-# Reproduction and setup status
+Technical setup
+Current implementation
+Findar Health runs on WordPress using the Doccure theme and existing plugins. The prototype was built through configuration of these tools; no custom application code was developed. The working website supports hospital discovery, search and directions: https://findarhealth.com
+See PLUGINS.md for the recorded plugin inventory.
 
-A complete installation procedure cannot yet be supplied: source files, sanitised configuration and environment details have not been inspected.
+Repository scope
+This repository documents the existing prototype and proposed development. It is not a standalone installation package. WordPress, Doccure and the plugins are obtained separately from their respective providers and remain subject to their own licences. Production credentials, database backups and personal information are excluded.
 
-## Information to collect
-1. WordPress, PHP and database versions; Doccure theme version.
-2. Any child theme, custom plugins or code snippets used by the website.
-3. Which theme/plugin implements hospital records, search, location and directions.
-4. Required plugin sources and licence/access requirements.
-5. Sanitised field definitions, page templates and configuration exports where permitted.
-6. Dummy hospital records and verified setup steps in an isolated test installation.
+Reproducing the prototype
+Recreating the website would require a compatible WordPress hosting environment, the relevant theme and plugins, page and plugin configuration, hospital listings, and any required map service settings. A separate installation using this documentation has not been tested.
 
-## Intended setup sequence (to validate)
-Install a compatible WordPress environment; obtain dependencies lawfully; install reviewed custom code and sanitised configuration; load dummy hospital data; configure maps using the reviewer's own credentials; verify search and directions. This sequence has not been tested and is not a deployment guide.
-
-Never use production patient data or publish hosting credentials. Do not modify the live site to assemble this repository.
+Proposed development
+The proposed project will add an open-source maternal care navigation and referral module, including AI-assisted search grounded in verified facility information. Installation instructions and technical requirements for that module will be published alongside its code as it is developed.
